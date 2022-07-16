@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Finlandica:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style.production.css">
+    <script src="js/tota11y.min.js"></script>
+    <link rel="shortcut icon" href="./IMG/favicon-32x32.png">
+</head>
+<body class="Page-header">
+    <!-- Add Logo here -->
+   <header class="page-header">
+       <!-- Add your logo here -->
+       <img class="page-header__item" src="IMG/logo-full.png" alt="Website-logo">
+           <nav class="main-navigation page-header__item">
+               <ul role="menubar" class="navigation-list">                        
+                   <li role="presentation">
+                       <a role="menuitem" href="index.html" 
+                       class="navigation-list__item navigation-list__item--active">Home</a>
+                   </li>
+                   <li role="presentation">
+                       <a role="menuitem" href="about.html" 
+                       class="navigation-list__item">About Me</a> <!--"attribut target="blank" opens the page in a new tab-->
+                   </li>
+                   <li role="presentation">
+                       <a role="menuitem" href="work.html" 
+                       class="navigation-list__item">Work</a>
+                   </li>
+                   <li role="presentation">
+                       <a role="menuitem" href="contact.html" 
+                       class="navigation-list__item">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div>
+        <h1>Contact</h1>
+        <div>
+
+          <form method="post" id="contact-form">
+            <label class="standard-label" for="contact-first-name">*First Name: </label>
+            <input type="text" id="contact-first-name" required><br><br>
+
+            <label class="standard-label" for="contact-last-name">*Last Name: </label>
+            <input type="text" id="contact-last-name" required><br><br>
+
+            <label class="standard-label" for="contact-email">*E-mail: </label>
+            <input type="email" id="contact-email" required>
+          
+            <label class="standard-label" for="contact-tel">Telephone(xxx-xxx-xxxx): </label>
+            <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}"><br><br>
+          
+            <label class="standard-label" for="contact-message">*Message (up to 240 characters): </label><br>
+            <textarea maxlength="240" id="contact-message" cols="30" rows="8" required></textarea><br><br>
+          
+            <input type="submit" value="Send message">
+          </form>
+        </div>
+
+        <a href="http://www.ultradead.com/" target="_blank">Check out some of my code</a>
+      </div>
+          <br>
+          CareerFoundry GmbH<br>
+          Köpenicker Str. 126 <br>
+          10179 Berlin<br>
+          Deutschland<br>
+          <br>
+          Tel <a href="tel:+491234567">+49 1234567</a><br>
+          Skype <a href="skype:hello.careerfoundry"> hello.CareerFoundry</a><br>
+          <a href="mailto:office@careerfoundry.com">office@careerfoundry.com</a><br>
+          <a href="mailto:office@careerfoundry.com">Contact me</a>
+<script src="js/tota11y.min.js"></script>
+</body>
+</html>
